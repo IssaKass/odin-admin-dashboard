@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Odin Admin Dashboard</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<aside class="sidebar">
+			<a href="#" class="logo">
+				<i class="fa-solid fa-chart-simple"></i>
+				<span class="logo__label">Dashboard</span>
+			</a>
+			<nav class="nav">
+				<ul class="nav__menu">
+					<li class="nav__item">
+						<a href="" class="nav__link active">
+							<i class="nav__icon fa-solid fa-house"></i>
+							<span class="nav__label">Home</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-user"></i>
+							<span class="nav__label">Profile</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-message"></i>
+							<span class="nav__label">Messages</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-clock"></i>
+							<span class="nav__label">History</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-check-to-slot"></i>
+							<span class="nav__label">Tasks</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-users"></i>
+							<span class="nav__label">Community</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="nav__menu">
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-gear"></i>
+							<span class="nav__label">Settings</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-circle-question"></i>
+							<span class="nav__label">Support</span>
+						</a>
+					</li>
+					<li class="nav__item">
+						<a href="" class="nav__link">
+							<i class="nav__icon fa-solid fa-shield"></i>
+							<span class="nav__label">Privacy</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+		<header class="header">
+			<label for="search" class="search">
+				<i class="fa-solid fa-search"></i>
+				<input type="search" id="search" />
+			</label>
+			<div class="user">
+				<a><i class="fa-solid fa-bell"></i></a>
+				<img src="./assets/avatar1.jpg" alt="Avatar image" class="avatar" />
+				<span>Roy Murray</span>
+			</div>
+			<div class="greeting">
+				<img
+					src="./assets/avatar1.jpg"
+					alt="Avatar image"
+					class="avatar avatar--large"
+				/>
+				<div class="greeting__message">
+					<span class="greeting__word">Hi there,</span>
+					<span class="greeting__user">Roy Murray (@roy)</span>
+				</div>
+			</div>
+			<div class="buttons">
+				<button type="button" class="button">New</button>
+				<button type="button" class="button">Upload</button>
+				<button type="button" class="button">Share</button>
+			</div>
+		</header>
+		<main class="main-content">
+			<section class="section projects">
+				<h2 class="section__title">Your Projects</h2>
+				<ul class="projects-wrapper">
+					<li class="project">
+						<h3 class="project__title">Super Cool Project</h3>
+						<p class="project__description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
+							inventore quisquam rerum atque doloribus soluta dolorem
+							necessitatibus quaerat explicabo numquam tempora fuga hic,
+							corrupti similique debitis.
+						</p>
+						<div class="project__actions">
+							<button type="button">
+								<i class="fa-solid fa-comment"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-bookmark"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-share-nodes"></i>
+							</button>
+						</div>
+					</li>
+					<li class="project">
+						<h3 class="project__title">Super Cool Project</h3>
+						<p class="project__description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
+							inventore quisquam rerum atque doloribus soluta dolorem
+							necessitatibus quaerat explicabo numquam tempora fuga hic,
+							corrupti similique debitis.
+						</p>
+						<div class="project__actions">
+							<button type="button">
+								<i class="fa-solid fa-comment"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-bookmark"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-share-nodes"></i>
+							</button>
+						</div>
+					</li>
+					<li class="project">
+						<h3 class="project__title">Super Cool Project</h3>
+						<p class="project__description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
+							inventore quisquam rerum atque doloribus soluta dolorem
+							necessitatibus quaerat explicabo numquam tempora fuga hic,
+							corrupti similique debitis.
+						</p>
+						<div class="project__actions">
+							<button type="button">
+								<i class="fa-solid fa-comment"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-bookmark"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-share-nodes"></i>
+							</button>
+						</div>
+					</li>
+					<li class="project">
+						<h3 class="project__title">Super Cool Project</h3>
+						<p class="project__description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
+							inventore quisquam rerum atque doloribus soluta dolorem
+							necessitatibus quaerat explicabo numquam tempora fuga hic,
+							corrupti similique debitis.
+						</p>
+						<div class="project__actions">
+							<button type="button">
+								<i class="fa-solid fa-comment"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-bookmark"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-share-nodes"></i>
+							</button>
+						</div>
+					</li>
+					<li class="project">
+						<h3 class="project__title">Super Cool Project</h3>
+						<p class="project__description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
+							inventore quisquam rerum atque doloribus soluta dolorem
+							necessitatibus quaerat explicabo numquam tempora fuga hic,
+							corrupti similique debitis.
+						</p>
+						<div class="project__actions">
+							<button type="button">
+								<i class="fa-solid fa-comment"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-bookmark"></i>
+							</button>
+							<button type="button">
+								<i class="fa-solid fa-share-nodes"></i>
+							</button>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<aside>
+				<section class="section announcements">
+					<h2 class="section__title">Announcements</h2>
+					<ul class="announcements-wrapper">
+						<li class="announcement">
+							<h4 class="announcement__title">Site Maintenance</h4>
+							<p class="announcement__description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Corporis vel alias ad ducimus velit maxime?
+							</p>
+						</li>
+						<li class="announcement">
+							<h4 class="announcement__title">Site Maintenance</h4>
+							<p class="announcement__description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Corporis vel alias ad ducimus velit maxime?
+							</p>
+						</li>
+						<li class="announcement">
+							<h4 class="announcement__title">Site Maintenance</h4>
+							<p class="announcement__description">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Corporis vel alias ad ducimus velit maxime?
+							</p>
+						</li>
+					</ul>
+				</section>
+				<section class="section trendings">
+					<h2 class="section__title">Trending</h2>
+					<ul class="trending-wrapper">
+						<li class="trending">
+							<img
+								src="./assets/avatar2.jpg"
+								alt=""
+								class="trending__avatar avatar"
+							/>
+							<div class="trending__info">
+								<div class="trending__username">@nettie</div>
+								<div class="trending__title">World Peace Builder</div>
+							</div>
+						</li>
+						<li class="trending">
+							<img
+								src="./assets/avatar3.jpg"
+								alt=""
+								class="trending__avatar avatar"
+							/>
+							<div class="trending__info">
+								<div class="trending__username">@nettie</div>
+								<div class="trending__title">World Peace Builder</div>
+							</div>
+						</li>
+						<li class="trending">
+							<img
+								src="./assets/avatar1.jpg"
+								alt=""
+								class="trending__avatar avatar"
+							/>
+							<div class="trending__info">
+								<div class="trending__username">@nettie</div>
+								<div class="trending__title">World Peace Builder</div>
+							</div>
+						</li>
+						<li class="trending">
+							<img
+								src="./assets/avatar3.jpg"
+								alt=""
+								class="trending__avatar avatar"
+							/>
+							<div class="trending__info">
+								<div class="trending__username">@nettie</div>
+								<div class="trending__title">World Peace Builder</div>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</aside>
+		</main>
+	</body>
+</html>
