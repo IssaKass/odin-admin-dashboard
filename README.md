@@ -2,6 +2,10 @@
 
 A responsive admin dashboard project built as part of [The Odin Project](https://www.theodinproject.com/) curriculum.
 
+## [🖥️ Live Demo](https://issakass.github.io/odin-admin-dashboard/)
+
+<img alt="preview image" src="preview.png">
+
 ## 🚀 Features
 
 - Fully responsive layout
